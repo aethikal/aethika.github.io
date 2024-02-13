@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#FFF5E4;
+            color: #FF9494;
+        }
+        #foodquestion {
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+        .food-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FF9494;
+        }
+        .food-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .food-item label {
+            display: block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+    </style>
+</head>
+<body>
+    <div id="foodquestion"><b><u>¿Qué comemos? :3</u></b></div>
+    
+    <div class="food-selection">
+        <div class="food-item">
+            <img src="food/burgers.jpeg" alt="Burgers, fries and fried chicken">
+            <label><input type="checkbox" name="food" value="Burgers, fries and fried chicken"> amvorguesa y papita</label>
+        </div>
+        <div class="food-item">
+            <img src="food/dog.jpeg" alt="dog">
+            <label><input type="checkbox" name="food" value="hotdog"> perro kaliente o josdo</label>
+        </div>
+        <div class="food-item">
+            <img src="food/subway.jpg" alt="koreanfood">
+            <label><input type="checkbox" name="food" value="Korean food"> subway :3</label>
+        </div>
+        <div class="food-item">
+            <img src="food/pasta.jpeg" alt="pasta">
+            <label><input type="checkbox" name="food" value="pasta"> pene hmmmmmmmm</label>
+        </div>
+        <div class="food-item">
+            <img src="food/pizza.jpeg" alt="pizza">
+            <label><input type="checkbox" name="food" value="pizza"> pisa</label>
+        </div>
+        <div class="food-item">
+            <img src="food/salad.jpeg" alt="salad">
+            <label><input type="checkbox" name="food" value="salad"> ensalada de todo</label>
+        </div>
+        <div class="food-item">
+            <img src="food/steak.jpeg" alt="steak">
+            <label><input type="checkbox" name="food" value="steak"> carnesita</label>
+        </div>
+        <div class="food-item">
+            <img src="food/sushi.jpeg" alt="sushi">
+            <label><input type="checkbox" name="food" value="sushi"> sushi chuchi</label>
+        </div>
+    </div>
+    <button class ="button"onclick="location.href='dessert.html'">siguiente :3</button>
+    
+</body>
+</html>
